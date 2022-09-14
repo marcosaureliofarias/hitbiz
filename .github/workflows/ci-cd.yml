@@ -26,10 +26,10 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Aplication dependency
-        run: yarn install
+        run: npm install
 
       - name: Aplication build
-        run: yarn run build
+        run: npm run build
 
       - name: S3 bucket
         run: cd dist && aws s3 cp ./ s3://hitbiz --recursive
