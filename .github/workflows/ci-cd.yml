@@ -26,7 +26,7 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
 
       - name: Aplication dependency
-        run: npm yarn install
+        run: yarn install
 
       - name: Aplication build
         run: yarn run build
