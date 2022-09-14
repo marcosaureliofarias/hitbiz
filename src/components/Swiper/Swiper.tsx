@@ -235,6 +235,8 @@ export default function SwiperCarousel() {
               <img src="https://placeimg.com/192/192/people" />
             </div>
           </div>
+          <div></div>
+          <div></div>
         </SwiperSlide>
       </Swiper>
     </>
